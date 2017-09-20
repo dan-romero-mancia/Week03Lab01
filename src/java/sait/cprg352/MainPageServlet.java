@@ -36,7 +36,6 @@ public class MainPageServlet extends HttpServlet {
             getServletContext().getRequestDispatcher("/WEB-INF/login.jsp").forward(request, response);
         }
         
-        //getServletContext().getRequestDispatcher("/WEB-INF/login.jsp").forward(request, response);
     }
 
     /**
