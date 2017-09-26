@@ -47,6 +47,7 @@ public class LoginServlet extends HttpServlet {
             throws ServletException, IOException {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
+        User user = new User(username, password);   
         
         if (username == null || password == null || username.isEmpty() || password.isEmpty()) {
             request.setAttribute("errorMessage", "Both values are required!");
