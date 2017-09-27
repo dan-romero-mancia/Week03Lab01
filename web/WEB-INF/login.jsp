@@ -10,8 +10,8 @@
         <h1>Login</h1>
         <div>
             <form action="Login" method="POST">
-                Username: <input type="text" name="username" ${username}><br>
-                Password: <input type="password" name="password" ${password}><br>
+                Username: <input type="text" name="username" value="${username}"><br>
+                Password: <input type="password" name="password" value="${password}"><br>
                 <input type="submit" value="Login">
             </form>
         </div>
